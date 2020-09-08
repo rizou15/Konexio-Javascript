@@ -1,21 +1,32 @@
+var letters = 'xxooxo';
 
-var letters = 'xooxxo';
 
-function exOh(str) {
-    var counter = 0;
+function exOh (str) {
+    var letterx = 0;
+    var lettero = 0;
+
     for (var i = 0; i < str.length; i++) {
-        var x = 'o';
-        var o = 'x';
-        counter = counter + str[i];
-        if (x == o) {
+
+        if (str[i] === 'x') {
+
+            letterx = letterx + 1;
+            
+        } if (str[i] === 'o') {
+
+            lettero = lettero + 1;
+
+        } if (letterx === lettero) {
+
             return true;
+
         } else {
 
             return false;
         }
     }
 }
-console.log(exOh(letters));
+
+console.log(exOh('x'));
 
 // à terminer //
-// reprendre la condition et compter le nbre de x pour avoir le nbre de o équivalent//
+// reprendre la condition et compter le nbre de x pour avoir le nbre de o équivalent
