@@ -15,7 +15,9 @@ function exOh (str) {
 
             lettero = lettero + 1;
 
-        } if (letterx === lettero) {
+        }
+        
+        if (letterx === lettero) {
 
             return true;
 
@@ -30,3 +32,6 @@ console.log(exOh('x'));
 
 // à terminer //
 // reprendre la condition et compter le nbre de x pour avoir le nbre de o équivalent
+// enlever le return du for ligne 22 à 23
+// suavegarder dans result
+// sortir la ligne 7 du for 

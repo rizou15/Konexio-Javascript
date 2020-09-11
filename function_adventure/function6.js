@@ -3,5 +3,5 @@ function getVariable(str){
 
     return str;
 }
-var result = getVariable();
-console.log('some text');
+var result = getVariable('some text');
+console.log(result);
