@@ -1,7 +1,5 @@
-var str = '';
-
 function displayVariable (str){
-    return str;
-
+    console.log(str);
 }
-    console.log('some text');
+
+displayVariable('some text')

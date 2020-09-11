@@ -1,6 +1,5 @@
-
-
 function displaySomething(){
-    
+    console.log ('yeah!');
 }
- console.log ('yeah!');
+
+displaySomething()

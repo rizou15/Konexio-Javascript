@@ -1,10 +1,6 @@
-var str = 'Hello';
-var str1 = 'Konexio';
-var str2 = 'Jean';
-
 function sayHello(str){
-    return str + str1;
-
+    console.log('Hello ' + str)
 }
-console.log(str,str1);
-console.log(str,str2);
+
+sayHello('konexio')
+sayHello('Jean')

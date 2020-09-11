@@ -1,10 +1,9 @@
 
-function getHello(){
+function getHello(str) {
 
-    return 'Hello';
+    return 'Hello ' + str;
 }
-var result = getHello();
-var str1 = 'Konexio';
-var str2 = 'Jean';
-console.log(result,str1);
-console.log(result,str2);
+var result = getHello('Konexio');
+var result2 = getHello('Jean');
+console.log(result);
+console.log(result2);
