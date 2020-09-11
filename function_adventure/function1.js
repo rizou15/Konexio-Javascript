@@ -1,6 +1,5 @@
-var word = '';
-
-function displaySomething(str){
-    return str;
+function displaySomething(){
+    console.log ('yeah!');
 }
- console.log ('yeah!');
+
+displaySomething()
